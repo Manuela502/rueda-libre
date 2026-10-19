@@ -1,0 +1,8 @@
+PUNTO 4. http://127.0.0.1:5500/index.html
+
+PUNTO 5 al poner en la barra de direcciones una ruta que no existe como/promociones.html 
+el servidor responde con 404 que significa NO ENCONTRADO.
+
+PUNTO 6 HTML cumpliría el rol de mostrar lo que hay en la página
+(Titulos, textos, imag...), CSS cumpliría el rol de la presentación
+(colores, tipografias, tamaños y distribución) y JAVASCRIPT el comportamiento, qué hace la página cuando el usuario interactúa con ella 
