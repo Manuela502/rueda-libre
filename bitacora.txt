@@ -6,3 +6,9 @@ el servidor responde con 404 que significa NO ENCONTRADO.
 PUNTO 6 HTML cumpliría el rol de mostrar lo que hay en la página
 (Titulos, textos, imag...), CSS cumpliría el rol de la presentación
 (colores, tipografias, tamaños y distribución) y JAVASCRIPT el comportamiento, qué hace la página cuando el usuario interactúa con ella 
+
+
+---index
+-header: tamaños
+-main: k
+-foo
