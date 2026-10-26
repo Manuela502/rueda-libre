@@ -34,10 +34,37 @@
         </dl>
 
         <section>
-            <form action="post">
-                
-                <label for="reserva">Formulario de reserva</label>
-                <input type="text" id="reserva" name="reserva">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    <p>
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required minlength="3">
+                    </p>
+                    <p>
+                        <label for="correo">Correo electronico</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+                    <p>
+                        <label for="telefono">Celular</label>
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}"
+                            title="Escribe 10 numeros, sin espacios">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Tu alquiler</legend>
+                    <p>
+                        <label for="fecha">Fecha de alquiler</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <p>
+                        <input type="checkbox" id="confirmar" name="confirmar" required>
+                        <label for="confirmar">Confirmo los datos de mi reserva</label>
+                    </p>
+                </fieldset>
+                <p><button type= "submit"> Enviar formulario </button></p>
             </form>
         </section>
 
