@@ -8,7 +8,33 @@ PUNTO 6 HTML cumpliría el rol de mostrar lo que hay en la página
 (colores, tipografias, tamaños y distribución) y JAVASCRIPT el comportamiento, qué hace la página cuando el usuario interactúa con ella 
 
 
----index
--header: tamaños
--main: k
--foo
+
+paleta de colores
+
+Verde Ruta: #1E7A4F -> Botones y enlaces
+Naranja Pedal: #F39A2B -> Destacados y botones secundarios
+Azul Noche: #14213D -> Títulos y encabezado
+Crema: #FAF6EF -> Fondo general
+Gris Asfalto: #5B6470 -> Texto secundario
+
+- Blanco sobre Verde Ruta:       5.31:1
+- Blanco sobre Naranja Pedal:    2.21:1
+- Azul Noche sobre Naranja Pedal: 7.2:1
+- Azul Noche sobre Crema:       14.82:1
+- Gris Asfalto sobre Crema:      5.56:1
+- Verde Ruta sobre Crema:        4.93:1
+- Naranja Pedal sobre Crema:     2.05:1
+- Blanco sobre Azul Noche:      15.97:1
+
+|--------------------------------------------------------------------------------|
+| Combinación de colores                  | Contrast Ratio | WCAG AA | WCAG AAA  |
+|--------------------------------------------------------------------------------|
+| Azul Noche sobre Naranja Pedal          | 7.2:1         | PASS    | PASS       |
+| Azul Noche sobre Crema                  | 14.82:1       | PASS    | PASS       |
+| Gris Asfalto sobre Crema                | 5.56:1        | PASS    | No cumple  |
+| Verde Ruta sobre Crema                  | 4.93:1        | PASS    | No cumple  |
+| Blanco sobre Azul Noche                 | 15.97:1       | PASS    | PASS       |
+| Blanco sobre Verde Ruta                 | 5.31:1        | PASS    | No cumple  |
+| Blanco sobre Naranja Pedal              | 2.21:1        | FAIL    | FAIL       | No apta
+| Naranja Pedal sobre Crema               | 2.05:1        | FAIL    | FAIL       | No apta
+|--------------------------------------------------------------------------------|
