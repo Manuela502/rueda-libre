@@ -20,3 +20,16 @@ h1, h2, h3, h4, h5 {
     font-family: var(--titulos);
     color: var(--azul-noche);
 }
+
+#menu a { color: var(--gris-asfalto); }
+#activo { color: var(--verde-ruta); font-weight: 600; }
+#menu a:hover,
+#menu a:focus {
+    color: var(--naranja-pedal);
+    font-weight: 600;
+}
+.boton-action {
+    border-radius: 50%;
+    background-color: #1E7A4F;
+}
+
