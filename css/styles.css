@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
     color: var(--azul-noche);
 }
 
-#menu a { color: var(--gris-asfalto); }
+#menu a { color: var(--gris-asfalto);  text-decoration: none;}
 #activo { color: var(--verde-ruta); font-weight: 600; }
 #menu a:hover,
 #menu a:focus {
@@ -54,4 +54,28 @@ h1, h2, h3, h4, h5 {
 .whatsapp-float:hover {
   background-color: #1ebc57;
   transform: scale(1.05);
+}
+.BICICLETAS{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 1rem;  /* separación entre las imagenes */
+}
+.BICICLETAS .bicicletas img {
+    width: 100%;
+    height: auto;
+
+}
+.Encabezado{
+    display: flex;
+    justify-content:space-between;
+
+}
+#menu{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+.portada{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
 }
